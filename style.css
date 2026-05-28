@@ -1,0 +1,53 @@
+    :root { color-scheme: light dark; }
+ 
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+
+    }
+ 
+    main { max-width: 70ch; margin: 0 auto; }
+ 
+    iframe {
+        height: 100vh;
+        width: 100vh;
+        padding-top: 20px;
+    }
+
+    .navbar {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 10px;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-links a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav-links a:hover {
+        color: red;
+    }
+
+    .sketchfab-embed-wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    #container3D canvas {
+        width: 100vh;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
